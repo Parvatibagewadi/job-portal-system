@@ -96,7 +96,7 @@
 
   <form class="glass-form" action="" method="post">
     {% csrf_token %}
-    <h1>Candidtae Signup</h1>
+    <h1>Admin Signup</h1>
 
     <input type="text" name="username" placeholder="Enter username" required>
     <input type="text" name="fullname" placeholder="Enter fullname" required>
@@ -105,6 +105,7 @@
     <input type="password" name="password" placeholder="Enter password" required>
 
     <button type="submit">Signup</button>
+    <a href="{% url 'recruiter_login' %}">Login Page</a>
   </form>
 
 </body>

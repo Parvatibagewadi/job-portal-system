@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Candidate Profile</title>
+  <title>Profile</title>
 
   <style>
     * {
@@ -119,7 +119,9 @@
 <body>
 
   <div class="profile-card">
-    <a href="{% url 'candidate_profile_update' %}" class="update-btn">Update Profile</a>
+    <a href="{% url 'recruiter_profile_update' %}" class="update-btn">Update</a><br/>
+    <a href="{% url 'recruiter_dashboard' %}" class="update-btn">Dashboard</a>
+    
 
     <div class="profile-header">
       <div class="profile-pic">
